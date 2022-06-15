@@ -9,9 +9,7 @@ body{
 }
 main{
     background-color: white;
-    /* margin-top: 50%; */
-    margin: 300px auto 0 ;
-    transform: translateY(-50%);
+    margin: 160px auto 0 ;
     width: 80%;
     display: flex;
     align-items: stretch; 
@@ -75,6 +73,7 @@ button a:hover{
     main{
         flex-direction: column;
         width: 100%;
+        margin-top:0;
     }
 P{
     margin-right: 10%;
