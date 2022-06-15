@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+    height: 100vh;
+}
+main{
+    background-color: white;
+    /* margin-top: 50%; */
+    margin: 300px auto 0 ;
+    transform: translateY(-50%);
+    width: 80%;
+    display: flex;
+    align-items: stretch; 
+    border-radius: 3px;
+    padding: 20px;
+}
+.container{
+    padding: 40px 20px;
+    border-radius: 3px;
+
+}
+h2{
+    padding: 20px 0 5px;
+    color: hsl(0, 0%, 95%);
+}
+p{
+    padding: 20px 10% 20px 0%;
+    /* margin-right: 25px; */
+    color:  hsla(0, 0%, 100%, 0.75);
+}
+.orange{
+    background-color: hsl(31, 77%, 52%);
+}
+.orange button a{
+color: hsl(31, 77%, 52%);
+}
+.green{
+    background-color: hsl(184, 100%, 22%)
+}
+.green button a{
+    color: hsl(184, 100%, 22%);
+}
+.blue{
+    background-color: hsl(179, 100%, 13%);
+}
+.blue button a{
+    color: hsl(179, 100%, 13%);
+}
+button{
+    outline: none;
+    border-radius: 20px;
+    border: 1px solid transparent;
+    padding: none; 
+    transition: background-color 700ms ease;
+}
+button:hover{
+border: 1px solid white;
+background-color: transparent;
+}
+button a{
+    font-size: 0.9rem;
+    padding: 9px 12px;
+    display: block;
+    text-decoration: none;
+    transition: color 500ms ease;
+}
+button a:hover{
+    color: white;
+}
+ @media (max-width: 600px){
+    main{
+        flex-direction: column;
+        width: 100%;
+    }
+P{
+    margin-right: 10%;
+}
+ }
